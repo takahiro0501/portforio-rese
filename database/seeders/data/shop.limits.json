@@ -1,0 +1,104 @@
+{
+"shop_limits":[
+ {
+  "shop_id": 1,
+  "limit_person": 5,
+  "limit_seat": 5
+ },
+ {
+  "shop_id": 2,
+  "limit_person": 11,
+  "limit_seat": 10
+ },
+ {
+  "shop_id": 3,
+  "limit_person": 25,
+  "limit_seat": 5
+ },
+ {
+  "shop_id": 4,
+  "limit_person": 10,
+  "limit_seat": 10
+ },
+ {
+  "shop_id": 5,
+  "limit_person": 8,
+  "limit_seat": 5
+ },
+ {
+  "shop_id": 6,
+  "limit_person": 7,
+  "limit_seat": 10
+ },
+ {
+  "shop_id": 7,
+  "limit_person": 5,
+  "limit_seat": 5
+ },
+ {
+  "shop_id": 8,
+  "limit_person": 20,
+  "limit_seat": 10
+ },
+ {
+  "shop_id": 9,
+  "limit_person": 15,
+  "limit_seat": 5
+ },
+ {
+  "shop_id": 10,
+  "limit_person": 5,
+  "limit_seat": 10
+ },
+ {
+  "shop_id": 11,
+  "limit_person": 11,
+  "limit_seat": 5
+ },
+ {
+  "shop_id": 12,
+  "limit_person": 25,
+  "limit_seat": 10
+ },
+ {
+  "shop_id": 13,
+  "limit_person": 10,
+  "limit_seat": 5
+ },
+ {
+  "shop_id": 14,
+  "limit_person": 8,
+  "limit_seat": 10
+ },
+ {
+  "shop_id": 15,
+  "limit_person": 7,
+  "limit_seat": 5
+ },
+ {
+  "shop_id": 16,
+  "limit_person": 5,
+  "limit_seat": 10
+ },
+ {
+  "shop_id": 17,
+  "limit_person": 20,
+  "limit_seat": 5
+ },
+ {
+  "shop_id": 18,
+  "limit_person": 15,
+  "limit_seat": 5
+ },
+ {
+  "shop_id": 19,
+  "limit_person": 7,
+  "limit_seat": 10
+ },
+ {
+  "shop_id": 20,
+  "limit_person": 5,
+  "limit_seat": 5
+ }
+]
+}

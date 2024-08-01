@@ -1,0 +1,636 @@
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+}
+
+.shop-card-wrapper{
+  display: flex;
+}
+.header{
+  padding: 3vh 8vw;
+  background-color: #D9D9D9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1{
+  font-size: 48px;
+}
+
+.header i{
+  margin-right: 10px;
+}
+
+.header .options {
+  font-size: 32px;
+}
+
+.option-box{
+  display: flex;
+  width: 12vw;
+  text-align: center;
+}
+
+.option-parts{
+  cursor: pointer;
+}
+
+.option-icon{
+  width: 6vw;
+  padding-bottom: 4px;
+}
+
+.option-name {
+  width: 6vw;
+  font-size: 16px;
+}
+
+.wrapper{
+  margin: 3vh 8vw;
+}
+
+.login-user {
+  margin: 2vh 8vw;
+}
+
+.search-pc{
+  width: 15vw;
+  height: 350px;
+  padding: 3vh 1vw;
+  background-color: #D9D9D9;
+  margin-left: 3vw;
+}
+
+.shop-card{
+  width: 65vw;
+  margin-bottom: 3vh;
+  background-color: #EEEEEE;
+}
+
+.main-usage{
+  font-size: 10px;
+  color: #808080;
+  margin-top: 5px;
+}
+
+.main-usage span{
+  margin-right: 10px;
+}
+
+.main{
+  width: 65vw;
+}
+
+.card-left{
+  width: 25%;
+}
+
+.card-right {
+  width: 70%;
+  padding: 10px 0;
+  margin-left: 2vw;
+}
+
+.shop-card img{
+  width: 100%;
+  height: 100%;
+}
+
+.area-name{
+  margin-right: 8px;
+}
+
+.shops-tel{
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+.shops-favorite{
+  display: inline-block;
+  font-size: 22px;
+  cursor: pointer;
+}
+.red{
+  color: #ff7f50;
+}
+.card-second{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.shops-title{
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 1vw;
+}
+
+.card-third{
+  margin-bottom: 10px;
+}
+
+.card-forth{
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.reservation-table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.reservation-table th{
+  border: 1px solid #a9a9a9;
+  padding: 2px 0;
+  font-size: 12px;
+}
+.reservation-table td {
+  border: 1px solid #a9a9a9;
+  padding: 5px 0;
+}
+
+.form-part{
+  margin-bottom: 4vh;
+}
+
+.form-button{
+  text-align: end;
+  margin-top: 3vh;
+}
+
+.form-button button{
+  font-size: 14px;
+}
+
+/* 店舗個別ページ */
+.shop-display{
+  width: 58vw;
+  margin: 5vh auto;
+  padding-bottom: 10vh;
+}
+.eyeCatch-box{
+  display: flex;
+}
+
+.shop-breadcrumb{
+  display: inline-block;
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 2vh;
+  border-bottom: 1px solid #555555;
+}
+
+.shop-back{
+  margin-right: 15px;
+}
+
+.shop-title{
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 1vw;
+}
+
+.shop-title i{
+  cursor: pointer;
+}
+
+.shop-tel{
+  font-size: 18px;
+}
+
+.shop-time{
+  font-size: 14px;
+  margin-top: 4px
+}
+
+.shop-info{
+  margin-right: 1vw;
+}
+
+.shop-btn button{
+  font-size: 16px;
+}
+
+.shop-img{
+  margin-top: 1vh;
+}
+
+.shop-img img{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.shop-text{
+  margin-top: 2vh;
+  font-size: 24px;
+}
+
+.shop-menu,
+.shop-access-title{
+  margin-top: 5vh;
+  background-color: black;
+  color: white;
+  padding: 2vh 1vw;
+  font-size: 24px;
+
+}
+
+.shop-menu-img{
+  margin: 2vh 2vw; 
+}
+
+.carousel__item {
+  height: 33vh;
+  font-size: 20px;
+}
+
+.carousel__item img{
+  width: 100%;
+  height: 25vh;
+}
+
+.carousel__slide {
+  padding: 10px 5px;
+}
+
+.shop-access-text{
+  font-size: 24px;
+  padding: 2vh 1vw;
+}
+
+.shop-access-text span{
+  padding-right: 1vw;
+}
+
+/* 予約モーダル */
+#overlay{
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.reserve-box {
+  margin: 10vh auto;
+  width: 50vw;
+  height: 59vh;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.modal-body {
+  width: 45vw;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+/* カレンダー */
+.calender {
+  position: relative;
+}
+
+.calender-box {
+  border: 1px solid #ced4da;
+  border-top: none;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  padding-bottom: 3vh;
+}
+
+.calender-box{
+  text-align: center;
+}
+
+#calender-header{
+  padding: 1vh 0;
+  font-weight: bold;
+}
+
+.reserveTable{
+  width: 90%;
+  border-collapse: collapse;
+  border: 1px solid #CCCCCC;
+  margin: 1vh auto 0 auto;
+}
+
+.reserveTable th,
+.reserveTable td
+{
+  border-collapse: collapse;
+  border: 1px solid #808080;
+}
+
+.reserveTable th{
+  background-color: #F4F4F4;
+  padding: 2px 0;
+}
+
+.reserveTable td {
+  padding: 3px 0;
+  width: 50px;
+}
+
+.reserveTable td:hover {
+  font-size: 15px;
+  background-color: #e0ffff;
+}
+
+.reserveTable .disabled {
+  color: #C3C3C3;
+  background-color: #FAFAFA;
+  height: 5vh;
+}
+
+.reserveTable .disabled:hover {
+  background-color: #FAFAFA;
+}
+
+.reserveTable .sunday {
+  color: #EA4640;
+  background-color: #FCE8E7;
+}  
+
+.reserveTable .saturday {
+  color: #4BABD1;
+  background-color: #EBF6FA;
+}
+
+.reserveTable .today {
+  background-color: lemonchiffon;
+}
+
+.calender-usage {
+  width: 90%;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.calender-usage span{
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+#year-month{
+  padding: 0 10px;
+}
+
+#prev,#next{
+  border: none;
+}
+
+.err-massage{
+  padding-top: 5px;
+  color: red;
+}
+
+#reserveBtn{
+  display: none;
+}
+
+#dummyBtn{
+  opacity: 0.3;
+}
+
+.register-box {
+  margin: 10vh auto;
+  width: 50vw;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* マイページ */
+.myPage-box{
+  margin: 3vh 8vw;
+}
+.myPage-nav{
+  font-size: 20px;
+}
+
+.reservation-card{
+  display: flex;
+  width: 65vw;
+  margin-bottom: 3vh;
+  background-color: #EEEEEE;
+}
+
+.history-data{
+  padding-bottom: 10px;
+}
+.history-data span{
+  display: inline-block;
+  width: 80px;
+}
+
+.history-img{
+  width: 25%;
+}
+.history-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.history-wrapper{
+  padding: 15px 20px
+}
+.myPage-nav {
+  display: flex;
+  align-items: start;
+}
+.myPage-nav-btn{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+@media screen and (min-width:865px) and (max-width:1280px) {
+.option-icon {
+  width: 6vw;
+  padding-bottom: 4px;
+}
+.option-name {
+  width: 6vw;
+  font-size: 12px;
+}
+.card-first{
+  font-size: 12px;
+}
+.card-second {
+  margin: 5px 0;
+}
+.shops-title{
+  font-size: 24px;
+}
+.shops-tel{
+  font-size: 18px;
+}
+.shops-favorite{
+  font-size: 18px;
+}
+.showBtn button{
+  font-size: 12px;
+  padding: 5px;
+}
+.card-third{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  margin-bottom: 5px;
+}
+.card-forth{
+  font-size: 10px;
+}
+.form-label,
+.form-button button{
+  font-size: 12px;
+}
+.form-control,
+.form-select{
+  height: 36px;
+  font-size: 12px;
+}
+.modal-title{
+  font-size: 24px;
+}
+
+}
+
+@media screen and (max-width:864px) {
+.header {
+  padding: 15px 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-pc{
+  display: none;
+}
+.shop-card {
+  width: 85vw;
+}
+.shop-card-wrapper {
+  display: block;
+}
+.card-right {
+  width: 100%;
+  padding: 10px;
+  margin-left: 0;
+}
+.card-first{
+  font-size: 14px;
+}
+.card-third {
+  display: none;
+}
+.card-left {
+  width: 100%;
+}
+.shops-title{
+  font-size: 20px;
+}
+.shops-tel{
+  font-size: 14px;
+}
+.showBtn button{
+  font-size: 12px;
+  padding: 5px;
+}
+.reservation-box{
+  width: 100%;
+  height: 70px;
+  overflow: scroll;
+}
+.option-name{
+  display: none;
+}
+.option-box {
+  width: 80px;
+}
+.option-icon {
+  margin-right: 15px;
+  font-size: 40px;
+}
+.modal-header {
+  padding: 5px;
+}
+.modal-title{
+  font-size: 24px;
+}
+.btn-close{
+  font-size: 24px;
+}
+.register-box {
+  width: 90vw;
+}
+.modal-body{
+  width: 100%;
+}
+.shop-display {
+  width: 90vw;
+  margin: 2vh auto;
+}
+
+.shop-title{
+  font-size: 24px;
+}
+.shop-tel,
+.shop-time{
+  font-size: 10px;
+}
+.shop-breadcrumb{
+  font-size: 12px;
+}
+.shop-btn button{
+  font-size: 12px;
+  padding: 5px 3px;
+}
+.shop-text{
+  font-size: 16px;
+}
+.shop-menu,
+.shop-access-title{
+  font-size: 18px;
+  padding: 1vh 1vw;
+}
+.shop-menu-caption{
+  font-size: 14px;
+}
+.shop-access-text {
+  font-size: 16px;
+}
+.reserve-box {
+  width: 90vw;
+  height: 70vh;
+}
+.myPage-nav {
+  display: block;
+}
+.myPage-nav-btn{
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+.reservation-card {
+  width: 85vw;
+}
+.history-img{
+  display: none;
+}
+.history-data{
+  font-size: 14px;
+}
+.history-data span{
+  width: 50px;
+}
+
+}
