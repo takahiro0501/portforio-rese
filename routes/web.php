@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 //店舗ルート
+Route::get('/', [ShopController::class, 'index']);
 Route::resource('shop', ShopController::class);
 //予約データ取得
 Route::post('shop/getData', [ShopController::class, 'getData']);

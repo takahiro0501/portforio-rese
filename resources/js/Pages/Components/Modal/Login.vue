@@ -99,7 +99,7 @@ const loginExe = () => {
   <div class="register-box" @click="stopEvent">
     <div class="modal-header">
       <h5 class="modal-title"> 
-          ログイン
+          ログイン（テストユーザ：test@test.com パスワード12345678）
       </h5>
       <button type="button" class="btn-close" @click="closeLoginModal"></button>
     </div>
