@@ -100,9 +100,9 @@ const loginExe = () => {
     <div class="modal-header">
       <h5 class="modal-title"> 
           ログイン
-          <small>
+          <span class="testuser">
           （テストユーザ：test@test.com パスワード12345678）
-          </small>
+          </span>
         </h5>
       <button type="button" class="btn-close" @click="closeLoginModal"></button>
     </div>

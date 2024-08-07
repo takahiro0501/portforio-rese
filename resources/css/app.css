@@ -8,6 +8,11 @@ a:hover{
   color: black;
 }
 
+.testuser{
+  font-size: 14px;
+  font-weight: normal;
+}
+
 .shop-card-wrapper{
   display: flex;
 }
